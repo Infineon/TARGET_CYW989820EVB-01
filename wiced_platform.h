@@ -1,5 +1,5 @@
 /*
- * Copyright 2019, Cypress Semiconductor Corporation or a subsidiary of
+ * Copyright 2020, Cypress Semiconductor Corporation or a subsidiary of
  * Cypress Semiconductor Corporation. All Rights Reserved.
  *
  * This software, including source code, documentation and related
@@ -64,6 +64,19 @@ typedef enum
     WICED_PLATFORM_GPIO_6,  //!< GPIO 6
     WICED_PLATFORM_GPIO_7,  //!< GPIO 7
     WICED_PLATFORM_GPIO_8,  //!< GPIO 8
+    WICED_PLATFORM_GPIO_9,  //!< GPIO 9
+    WICED_PLATFORM_GPIO_10,  //!< GPIO 10
+    WICED_PLATFORM_GPIO_11,  //!< GPIO 11
+    WICED_PLATFORM_GPIO_12,  //!< GPIO 12
+    WICED_PLATFORM_GPIO_13,  //!< GPIO 13
+    WICED_PLATFORM_GPIO_14,  //!< GPIO 14
+    WICED_PLATFORM_GPIO_15,  //!< GPIO 15
+    WICED_PLATFORM_GPIO_16,  //!< GPIO 16
+    WICED_PLATFORM_GPIO_17,  //!< GPIO 17
+    WICED_PLATFORM_GPIO_18,  //!< GPIO 18
+    WICED_PLATFORM_GPIO_19,  //!< GPIO 19
+    WICED_PLATFORM_GPIO_20,  //!< GPIO 20
+    WICED_PLATFORM_GPIO_21,  //!< GPIO 21
     WICED_PLATFORM_GPIO_MAX //!< Max GPIO for error check
 } wiced_platform_gpio_number_t;
 
@@ -89,6 +102,17 @@ enum wiced_platform_pins
     PLATFORM_GPIO_8,
     PLATFORM_GPIO_9,
     PLATFORM_GPIO_10,
+    PLATFORM_GPIO_11,
+    PLATFORM_GPIO_12,
+    PLATFORM_GPIO_13,
+    PLATFORM_GPIO_14,
+    PLATFORM_GPIO_15,
+    PLATFORM_GPIO_16,
+    PLATFORM_GPIO_17,
+    PLATFORM_GPIO_18,
+    PLATFORM_GPIO_19,
+    PLATFORM_GPIO_20,
+    PLATFORM_GPIO_21,
     PLATFORM_GPIO_MAX_PINS
 };
 
@@ -157,6 +181,7 @@ wiced_platform_gpio_config_t;
 /* Platform function */
 void     wiced_platform_init(void);
 uint32_t wiced_platform_get_button_pressed_value(wiced_platform_button_number_t button);
+wiced_bt_gpio_numbers_t wiced_platform_get_function_gpio_pin(wiced_bt_gpio_function_t fn);
 
 /* utility functions */
 void     wiced_platform_register_button_callback(wiced_platform_button_number_t button, void (*userfn)(void*, uint8_t), void* userdata, wiced_platform_button_interrupt_edge_t trigger_edge);

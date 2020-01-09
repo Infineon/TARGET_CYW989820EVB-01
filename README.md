@@ -17,7 +17,7 @@ The Cypress CYW989820EVB-01 Evaluation Kit enables you to evaluate and develop s
 * Quick Start Guide
 
 ### Additional Information
-Max UART baud rate is 3M. 
+Max UART baud rate is 3M.
 
 For more information, see the [Cypress Automotive Wireless](https://www.cypress.com/products/automotive-wireless) webpage.
 

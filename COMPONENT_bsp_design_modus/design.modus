@@ -42,7 +42,7 @@
                     <Personality template="20x19_pin" version="1.0">
                         <Param id="Type" value="LED"/>
                         <Param id="Index" value="2"/>
-                        <Param id="DefaultState" value="GPIO_PIN_OUTPUT_LOW"/>
+                        <Param id="DefaultState" value="GPIO_PIN_OUTPUT_HIGH"/>
                         <Param id="Control" value="GPIO_OUTPUT_ENABLE"/>
                         <Param id="PullMode" value="GPIO_PULL_UP_DOWN_NONE"/>
                         <Param id="InterruptEnable" value="false"/>
@@ -54,7 +54,7 @@
                     <Personality template="20x19_pin" version="1.0">
                         <Param id="Type" value="LED"/>
                         <Param id="Index" value="1"/>
-                        <Param id="DefaultState" value="GPIO_PIN_OUTPUT_LOW"/>
+                        <Param id="DefaultState" value="GPIO_PIN_OUTPUT_HIGH"/>
                         <Param id="Control" value="GPIO_OUTPUT_ENABLE"/>
                         <Param id="PullMode" value="GPIO_PULL_UP_DOWN_NONE"/>
                         <Param id="InterruptEnable" value="false"/>

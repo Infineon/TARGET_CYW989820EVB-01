@@ -30,13 +30,13 @@
 {\
     .gpio = (wiced_bt_gpio_numbers_t*)&platform_gpio_pins[PLATFORM_GPIO_5].gpio_pin, \
     .config = GPIO_OUTPUT_ENABLE | GPIO_PULL_UP_DOWN_NONE, \
-    .default_state = GPIO_PIN_OUTPUT_LOW, \
+    .default_state = GPIO_PIN_OUTPUT_HIGH, \
  }
 #define LED1_config \
 {\
     .gpio = (wiced_bt_gpio_numbers_t*)&platform_gpio_pins[PLATFORM_GPIO_6].gpio_pin, \
     .config = GPIO_OUTPUT_ENABLE | GPIO_PULL_UP_DOWN_NONE, \
-    .default_state = GPIO_PIN_OUTPUT_LOW, \
+    .default_state = GPIO_PIN_OUTPUT_HIGH, \
  }
 #define BUTTON1_config \
 {\
