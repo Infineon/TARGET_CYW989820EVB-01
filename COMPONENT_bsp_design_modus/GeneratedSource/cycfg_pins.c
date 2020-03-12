@@ -41,8 +41,8 @@
 #define BUTTON1_config \
 {\
     .gpio = (wiced_bt_gpio_numbers_t*)&platform_gpio_pins[PLATFORM_GPIO_0].gpio_pin, \
-    .config = GPIO_INPUT_ENABLE | GPIO_PULL_UP_DOWN_NONE, \
-    .default_state = GPIO_PIN_OUTPUT_LOW, \
+    .config = GPIO_INPUT_ENABLE | GPIO_PULL_UP, \
+    .default_state = GPIO_PIN_OUTPUT_HIGH, \
     .button_pressed_value = GPIO_PIN_OUTPUT_LOW, \
 }
 

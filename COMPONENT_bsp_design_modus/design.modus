@@ -114,10 +114,10 @@
                     <Personality template="20x19_pin" version="1.0">
                         <Param id="Type" value="BUTTON"/>
                         <Param id="Index" value="1"/>
-                        <Param id="DefaultState" value="GPIO_PIN_OUTPUT_LOW"/>
+                        <Param id="DefaultState" value="GPIO_PIN_OUTPUT_HIGH"/>
                         <Param id="PressedValue" value="GPIO_PIN_OUTPUT_LOW"/>
                         <Param id="Control" value="GPIO_INPUT_ENABLE"/>
-                        <Param id="PullMode" value="GPIO_PULL_UP_DOWN_NONE"/>
+                        <Param id="PullMode" value="GPIO_PULL_UP"/>
                         <Param id="InterruptEnable" value="false"/>
                         <Param id="InterruptTrigger" value="GPIO_EN_INT_RISING_EDGE"/>
                     </Personality>
