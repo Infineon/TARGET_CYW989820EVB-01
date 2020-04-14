@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Design version="12" xmlns="http://cypress.com/xsd/cydesignfile_v3">
-    <ToolInfo version="1.0.0"/>
+    <ToolInfo version="2.1.0.1266"/>
     <Devices>
         <Device mpn="CYW89820BWMLG">
             <BlockConfig>
@@ -189,6 +189,5 @@
             </Netlist>
         </Device>
     </Devices>
-    <Libraries/>
     <ConfiguratorData/>
 </Design>
