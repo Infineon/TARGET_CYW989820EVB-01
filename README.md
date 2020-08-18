@@ -19,5 +19,8 @@ The Cypress CYW989820EVB-01 Evaluation Kit enables you to evaluate and develop s
 ### Additional Information
 Max UART baud rate is 3M.
 
+External 32 kHz LPO is used by default. To operate without external LPO, set USE_32K_EXTERNAL_LPO=0 on
+make command line or edit default value in CYW989820EVB-01.mk.
+
 For more information, see the [Cypress Automotive Wireless](https://www.cypress.com/products/automotive-wireless) webpage.
 
